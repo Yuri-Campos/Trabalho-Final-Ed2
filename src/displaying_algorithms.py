@@ -23,7 +23,7 @@ def menu(olympics):
     
 
     while(option != 0):
-        print("Busca em Grafos: Olimpíadas:\nopções:\n1-Definir Modalidade\n2-Definir país\n3-Buscar\n4-Mostrar resultado de busca")
+        print("Busca em Grafos: Olimpíadas:\nOpções:\n1-Definir Modalidade\n2-Definir País\n3-Buscar por País\n4-Mostrar Resultado de Busca")
         option = int(input(" "))
         match option:
             case 1:
